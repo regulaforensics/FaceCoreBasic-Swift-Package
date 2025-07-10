@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "FaceCoreBasicBeta",
+    name: "FaceCoreBasic",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "FaceCoreBasicBeta",
-            targets: ["FaceCoreBasicBeta"]),
+            name: "FaceCoreBasic",
+            targets: ["FaceCoreBasic"]),
     ],
     targets: [
-        .binaryTarget(name: "FaceCoreBasicBeta", url: "https://pods.regulaforensics.com/FaceCoreBasicBeta/7.1.1298/FaceCoreBasicBeta-7.1.1298.zip", checksum: "4724742053379d0f89d7659f153f68bf3ee9f39ee9b58de1f7cd4726aaa620e8"),
+        .binaryTarget(name: "FaceCoreBasic", url: "https://pods.regulaforensics.com/FaceCoreBasic/7.1.1501/FaceCoreBasic-7.1.1501.zip", checksum: "7b3854d96a4c0dffbb77a66046c32ae1b353ceb7adc14be103e26de880e52c04"),
     ]
 )
