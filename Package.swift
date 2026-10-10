@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "FaceCoreBasic",
-            targets: ["FaceCoreBasicNightly"]),
+            targets: ["FaceCoreBasicStage"]),
     ],
     targets: [
         .binaryTarget(
-            name: "FaceCoreBasicNightly",
-            url: "https://pods.regulaforensics.com/Nightly/FaceCoreBasicNightly/8.5.2754/FaceCoreBasicNightly-8.5.2754.zip",
-            checksum: "d4531ed3975e8b18b207e68515a10ddd93f3fd982571f3ae868e48076e69251b"),
+            name: "FaceCoreBasicStage",
+            url: "https://pods.regulaforensics.com/Stage/FaceCoreBasicStage/8.5.2755/FaceCoreBasicStage-8.5.2755.zip",
+            checksum: "0f3dbd3d2ec70705f9082f43e5acff5f29a5a882a7242d51a90b524542ba02a9"),
     ]
 )
